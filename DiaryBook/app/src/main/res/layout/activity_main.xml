@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@mipmap/login3"
+        android:gravity="center"
+        android:text="Diary"
+        android:textColor="#8C909B"
+        android:textSize="60sp" />
+
+    <ListView
+        android:id="@+id/diary_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="0dp"
+        >
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="0dp"
+            android:background="@null"
+            android:paddingTop="0sp"
+            android:text="info"
+            android:textColor="#425d6a"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/write"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="232dp"
+            android:background="@null"
+            android:gravity="center"
+            android:paddingTop="0sp"
+            android:text="+"
+            android:textColor="#425d6a"
+            android:textSize="48sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
